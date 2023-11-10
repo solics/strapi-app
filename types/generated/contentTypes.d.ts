@@ -375,9 +375,9 @@ export interface ApiProductProduct extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String;
-    image: Attribute.Media;
     stock: Attribute.Integer;
     price: Attribute.Decimal;
+    image: Attribute.JSON;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -15,19 +15,14 @@
     "name": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "stock": {
       "type": "integer"
     },
     "price": {
       "type": "decimal"
+    },
+    "image": {
+      "type": "json"
     }
   }
 }
